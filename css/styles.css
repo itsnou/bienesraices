@@ -53,6 +53,9 @@ h4{
     display:block!important;
 }
 
+.contenido-centrado{
+    max-width: 800px;
+}
 /** botones **/
 .boton{
     color: white;
@@ -173,6 +176,8 @@ h4{
     padding:0;
     display:flex;
     justify-content:space-evenly;
+    max-width: 500px;
+    flex:1;
 }
 
 .iconos-caracteristicas li{
@@ -306,4 +311,12 @@ h4{
     font-size: 2rem;
     margin: 0;
     padding: 1rem 0 3rem 0;
+}
+
+/* anuncio */
+
+.resumen-propiedad{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
 }
