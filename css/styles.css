@@ -340,38 +340,15 @@ h4{
     font-weight: 300;
 }
 
-/* Footer */
-.site-footer{
-    background: #333333;
-    margin:0;
-}
-
-.contenedor-footer{
-    padding:3rem 0;
-    text-align: center;
-}
-
-.site-footer nav{display:none}
-
-@media (min-width: 768px){
-    .contenedor-footer{
-        display:flex;
-        justify-content: space-between;
-    }
-    .site-footer nav{display: block;}
-}
-
-.copyright{
-    margin:0;
-    color:#ffffff;
-}
 
 /* paginas internas */
 /* nosotros */
-.contenido-nosotros{
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 2rem;
+@media (min-width: 768px){
+    .contenido-nosotros{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 2rem;
+    }
 }
 .texto-nosotros blockquote{
     font-weight: 900;
@@ -436,4 +413,30 @@ label{
     display:flex;
     justify-content:space-between;
     align-items: center;
+}
+
+/* Footer */
+.site-footer{
+    background: #333333;
+    margin:0;
+}
+
+.contenedor-footer{
+    padding:3rem 0;
+    text-align: center;
+}
+
+.site-footer nav{display:none}
+
+@media (min-width: 768px){
+    .contenedor-footer{
+        display:flex;
+        justify-content: space-between;
+    }
+    .site-footer nav{display: block;}
+}
+
+.copyright{
+    margin:0;
+    color:#ffffff;
 }
